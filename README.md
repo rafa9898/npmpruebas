@@ -1,6 +1,6 @@
 # Título del Proyecto
 
-_Acá va un párrafo que describa lo que es el proyecto_
+Proyecto TIMER
 
 ## Comenzando 🚀
 
@@ -11,15 +11,14 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Node.js
 
 ```
 Da un ejemplo
 ```
 
 ### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+Una pequeña intro acerca de la instalación.
 
 _Dí cómo será ese paso_
 
