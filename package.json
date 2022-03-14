@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "timer-node": "^5.0.5"
+  },
+  "name": "npmpruebas",
+  "version": "1.0.0",
+  "main": "file.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "Rafa",
+  "license": "ISC",
+  "description": ""
+}
