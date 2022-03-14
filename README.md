@@ -15,10 +15,18 @@ Node.js
 Una pequeña intro acerca de la instalación.
 
 Para instalar node.js:
+```
 $ sudo apt update
+```
+```
 $ sudo apt install nodejs
+```
+```
 $ nodejs -v
+```
+```
 $ sudo apt install npm
+```
 
 Para clonar el repositorio, trabajar con él y ejectuar el proyecto: 
 $ git clone https://github.com/rafa9898/npmpruebas.git
