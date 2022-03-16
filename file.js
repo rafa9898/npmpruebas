@@ -25,13 +25,15 @@ function iniciarTimer() {
 }
 
 
-
+//recorremos los argumentos del comando
 process.argv.forEach(function (val, index, array) { 
      
+    //si el tercer argumento es timer
     if((index == 2) && (val == "timer")){
         iniciarTimer();
     }
     
+    //si el tercer argumento es api
     if((index == 2) && (val == "api")){
         fetch(recurso)
             .then(res => res.json())
