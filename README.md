@@ -1,10 +1,10 @@
-# Proyecto TIMER
+# Proyecto TIMER-API
 
-Este proyecto pone en marcha un temporizador y va mostrando por consola los milisegundos hasta que pasan 5 segundos.
+Este proyecto pone en marcha un temporizador y va mostrando por consola los milisegundos hasta que pasan 5 segundos cuando ejectuamos 'npm start timer'. Muestra una lista de empleados que proviene de una API cuando ejecutamos 'npm start api'.
 
 ## Comenzando 🚀
 
-El proyecto está realizado con Node.js para investigar acerca de cómo se utilizan las dependencias NPM. En este caso 'timer-node'. Hemos visto los diferentes métodos que podemos utilizar en esta dependencia, pausando el temporizador, parándolo, mostrando la información en distintos formatos, etc.
+El proyecto está realizado con Node.js para investigar acerca de cómo se utilizan las dependencias NPM. En este caso 'timer-node'. Hemos visto los diferentes métodos que podemos utilizar en esta dependencia, pausando el temporizador, parándolo, mostrando la información en distintos formatos, etc. También se trabaja con node-fetch para conectarse a una api y mostrar una lista de empleados.
 
 
 ### Pre-requisitos 📋
@@ -68,3 +68,4 @@ Puedes encontrar mucho más de cómo utilizar Node.js en este enlace [Wiki] http
 ## Más información 📖
 * Node.js (https://nodejs.org/es/docs/)
 * Timer-node (https://www.npmjs.com/package/timer-node)
+* Node-fetch (https://www.npmjs.com/package/node-fetch)
