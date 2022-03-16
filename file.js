@@ -4,18 +4,41 @@ const { Timer } = require('timer-node');
 //creamos el objeto timer
 const timer = new Timer({ label: 'test-timer' });
 
-//se inicia el timer
-timer.start();
+//importamos node-fetch
+const fetch = require('node-fetch');
+const recurso = "http://dummy.restapiexample.com/api/v1/employees";
 
-//mostramos los ms hasta llegar a los 5 segundos
-do{
-    console.log(timer.ms());
-} while(timer.ms() <= 5000);
+//función para iniciar el timer
+function iniciarTimer() {
+    //se inicia el timer
+    timer.start();
 
-//pausamos el timer
-timer.pause();
+    //mostramos los ms hasta llegar a los 5 segundos
+    do{
+        console.log(timer.ms());
+    } while(timer.ms() <= 5000);
 
-console.log(timer.time());
+    //pausamos el timer
+    timer.pause();
+
+    console.log(timer.time());
+}
+
+
+
+process.argv.forEach(function (val, index, array) { 
+     
+    if((index == 2) && (val == "timer")){
+        iniciarTimer();
+    }
+    
+    if((index == 2) && (val == "api")){
+        fetch(recurso)
+            .then(res => res.json())
+            .then(json => console.log(json));
+    }
+
+});
 
 
 

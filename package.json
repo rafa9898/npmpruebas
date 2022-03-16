@@ -1,14 +1,14 @@
 {
   "dependencies": {
+    "node-fetch": "^2.6.7",
     "timer-node": "^5.0.5"
   },
   "name": "npmpruebas",
   "version": "1.0.0",
   "main": "file.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "start": "node file.js"
   },
   "author": "Rafa",
   "license": "ISC",
