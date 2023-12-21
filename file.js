@@ -42,12 +42,8 @@ process.argv.forEach(function (val, index, array) {
 
 });
 
-<<<<<<< HEAD
 console.log("Hola Mundo");
 
-=======
-console.log("Adiós");
->>>>>>> dev
 
 
 
